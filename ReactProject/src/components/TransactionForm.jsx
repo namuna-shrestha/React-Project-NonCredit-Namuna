@@ -95,8 +95,8 @@ function TransactionForm({ onAddTransaction }) {
             name="amount"
             type="number"
             min="0"
-            step="0.01"
-            placeholder="0.00"
+            step="0"
+            placeholder="0"
             value={form.amount}
             onChange={handleChange}
           />

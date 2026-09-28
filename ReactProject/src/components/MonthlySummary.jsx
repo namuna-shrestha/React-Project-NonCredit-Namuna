@@ -4,7 +4,7 @@ import useLocalStorage from '../hooks/useLocalStorage.jsx';
 function formatCurrency(value) {
   return value.toLocaleString(undefined, {
     style: 'currency',
-    currency: 'USD',
+    currency: 'NPR',
     minimumFractionDigits: 2,
   });
 }

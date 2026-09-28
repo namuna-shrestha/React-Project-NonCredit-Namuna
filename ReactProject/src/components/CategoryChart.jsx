@@ -3,12 +3,11 @@ import { useMemo } from 'react';
 function formatCurrency(value) {
   return value.toLocaleString(undefined, {
     style: 'currency',
-    currency: 'USD',
+    currency: 'NPR',
     minimumFractionDigits: 2,
   });
 }
 
-// Simple dependency-free bar chart built from styled <div> elements.
 function CategoryChart({ transactions }) {
   const data = useMemo(() => {
     const totals = {};
