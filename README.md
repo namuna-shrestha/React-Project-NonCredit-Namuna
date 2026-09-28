@@ -51,3 +51,5 @@ Screenshots
 
 Run npm run dev, open the app in your browser, add a few sample transactions, and paste your own screenshots below before submitting. Save the image files in a screenshots/ folder in the project root so these links resolve.
 
+this is the preview of the project
+![alt text](<Screenshot 2026-09-28 102956.png>)
